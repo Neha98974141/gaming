@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+}
+
+.cars button, .start {
+    padding: 10px 20px;
+    margin: 5px;
+    background: black;
+    color: gold;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+
+.track {
+    width: 90%;
+    height: 200px;
+    border: 2px solid white;
+    margin: 30px auto;
+    position: relative;
+}
+
+.car {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+}
+
+.player {
+    background: gold;
+    top: 30px;
+}
+
+.ai {
+    background: gray;
+}
+
+#ai1 { top: 90px; }
+#ai2 { top: 140px; }
